@@ -72,7 +72,7 @@ jobs:
           body: |
             Automated Release by GitHub Action CI
           draft: true
-          prerelease: true
+          prerelease: false
 
       - name: Upload GitHub Release File
         id: upload-release-asset-arm64
